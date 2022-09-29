@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
- *this is a printing funtion
+ *A main is a predefined keyword or function in C. It is the first function of every C program that is responsible for starting the execution and termination of the program  
+
  */
 int main(void)
 {
