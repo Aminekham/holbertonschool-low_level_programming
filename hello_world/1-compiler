@@ -1,2 +1,2 @@
 #!/bin/bash
-$S=tr $CFILE ".c" ".o"|gcc -c $CFILE -o $S 
+$S=tr $CFILE .c .o|gcc -c $CFILE -o $S 
