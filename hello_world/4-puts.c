@@ -1,6 +1,8 @@
 #include <stdio.h>
-/*
- *A main is a predefined keyword or function in C. It is the first function of every C program 
+/**
+ * main - Entry point for c program
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
