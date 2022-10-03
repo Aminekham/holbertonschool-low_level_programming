@@ -6,13 +6,18 @@
  */
 int main(void)
 {
-	int i;
+	char i;
 
-	for (i = 97; i < 101; ++i)
+	i='a';
+	while (i <= 'z')
+	if (i !='q' && i != 'e')
 {
-		putchar(i + "\n");
+	putchar(i);
+	++i;
 }
-	for (i =102 ; i < 123; ++i)
-		putchar(i + "\n");
+	else
+{
+++i;
+}
 	return (0);
 }
