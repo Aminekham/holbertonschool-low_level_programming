@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * main - Main function
- * return: 0
+/**
+ * main - Entry point for c program
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
   {
