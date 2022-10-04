@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * print_alphabet_x10 - read the program bellow
+ * print_alphabet_x10 - read the program bellow.
  *
  * Return : void
  */
