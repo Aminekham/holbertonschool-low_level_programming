@@ -1,15 +1,19 @@
 #include "main.h"
-
+/**
+ *_abs - Description: 'absolute value'
+ *
+ * @n:  - integer to use
+ *
+ * Return: -n or n
+ */
 int _abs(int n)
 {
 	if(n < 0)
 {
-	n == n*-1;
-	_putchar('n');
+	return (-n);
 }
 	else
 {
-	putchar('n');
+	return (n)
 }
-	return (1);
 }
