@@ -9,13 +9,7 @@
 int _islower(int c)
 {
 	char f = c;
+	int r = islower(f);
 
-	if ( int islower(f))
-{
-		return (1);
-}
-	else
-{
-		return (0);
-}
+	return (r);
 }
