@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * 2-print_alphabet_x10.c - read the program bellow 
+ * 2-print_alphabet_x10.c - read the program bellow
  *
  * @c - integer to use
  *
@@ -10,7 +10,7 @@ int _islower(int c)
 {
 	char f = c;
 
-	if ( islower(f) == 1)
+	if ( islower(f))
 {
 		return (1);
 }
