@@ -1,6 +1,10 @@
 #include "main.h"
 /**
+ *_isalpha - Description: 'checks for lowercase character'
  *
+ * @c:  - integer to use
+ *
+ * Return: 0 or 1
  */
 int _isalpha(int c)
 {
