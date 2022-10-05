@@ -5,11 +5,10 @@ int print_last_digit(int n)
         int r;
 
         r = (n % 10);
-        if ( r > 0)
+        if ( r < 0)
 		{
-        putchar(r);
+        _putchar(r + '0');
 		}
-		putchar(r + '0');
         return (r);
 
 }
