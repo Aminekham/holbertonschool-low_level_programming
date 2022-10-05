@@ -9,7 +9,7 @@ int print_last_digit(int n)
 		{
         putchar(r);
 		}
-		putchar(r + '0')
+		putchar(r + '0');
         return (r);
 
 }
