@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * 2-print_alphabet_x10.c - read the program bellow
+ * _islower - check the lowercase
  *
  * @c - integer to use
  *
@@ -8,7 +8,7 @@
  */
 int _islower(int c)
 {
-	if (c>=97 && c<123)
+	if (c >= 97 && c < 123)
 {
 	return (1);
 }
