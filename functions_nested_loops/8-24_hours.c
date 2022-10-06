@@ -1,5 +1,7 @@
 #include "main.h"
-
+/**
+ * jack_bauer - Description: 'display all the 24h'
+ */
 void jack_bauer(void)
 {
 	int i, j;
@@ -8,11 +10,11 @@ void jack_bauer(void)
 	{
 		for (j = 00; j < 60; j++)
 		{
-			_putchar((i/10) + '0');
-			_putchar((i%10) + '0');
+			_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
 			_putchar(':');
-			_putchar((j/10) + '0');
-			_putchar((j%10) + '0');
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
 			_putchar('\n');
 		}
 	}
