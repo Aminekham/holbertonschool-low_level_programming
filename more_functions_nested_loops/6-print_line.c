@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * more_numbers - printing all numbers till 14
+ * print_line - printing all numbers till 14
  *
+ * @n - integer to receive the number of lines
  */
- void print_line(int n) 
+void print_line(int n)
 {
 	int i;
 	for (i = 0; i <= n; i++)
