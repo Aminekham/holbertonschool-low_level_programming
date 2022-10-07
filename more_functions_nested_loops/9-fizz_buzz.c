@@ -1,29 +1,30 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * fizzbuzz - inting all numbers till 14
  *
  */
-int fizzbuzz(void)
+int main(void)
 {
-	for (i = 1; i < 100)
-	{
-		int i;
+	int i;
 
-		if (i % 3 = 0 )
+	for (i = 1; i <= 100; i++)
+	{
+		if (i % 3 == 0 )
 		{
-			printf("fizz");
+			printf("fizz ");
 		}
-		else if (i % 5 = 0)
+		else if (i % 5 == 0)
 		{
-			printf("buzz");
+			printf("buzz ");
 		}
-		else if (i % 5 && i % 3)
+		else if (i % 5 == 0 && i % 3 == 0)
 		{
-			printf("fizzbuzz");
+			printf("fizzbuzz ");
 		}
 		else 
 		{
-			printf("%d",i);
+			printf("%d ",i);
 		}
 	}
+	return (0);
 }
