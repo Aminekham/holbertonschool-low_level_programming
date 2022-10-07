@@ -1,12 +1,16 @@
 #include "main.h"
-
-git  
+/**
+ * print_numbers - printing all the digits
+ *
+ * Return: a*b
+ */
+void print_numbers(void)
 {
-    int i;
+	int i;
 
-    for (i = 0; i < 10; i++)
-    {
-        _putchar(i + '0');
-    }
-    _putchar('\n');
+	for (i = 0; i < 10; i++)
+	{
+		_putchar(i + '0');
+	}
+	_putchar('\n');
 }
