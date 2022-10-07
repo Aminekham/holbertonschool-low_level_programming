@@ -6,7 +6,7 @@
  *
  * Return : 0 or 1 (depends on the program)
  */
-int _isupper(int c) 
+int _isupper(int c)
 {
 	if (c > 64 && c < 91)
 	{
