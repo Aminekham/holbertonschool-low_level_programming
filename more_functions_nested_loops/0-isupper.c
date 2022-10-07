@@ -4,7 +4,7 @@
  *
  * @c: - integer to use
  *
- * Return - 0 or 1
+ * Return: return 1 or 0
  */
 int _isupper(int c)
 {
