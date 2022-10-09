@@ -1,12 +1,13 @@
 #include "main.h"
 /**
  * print_triangle - Do you want to print an inversed triangle
- * 
+ *
  * @size: - integer to receive the number of lines
  */
 void print_triangle(int size)
 {
 	int i, j, n;
+
 	if (size > 0)
 	{
 		for (i = 1; i <= size; i++)
