@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 		}
 		else if 
 		{
-			print("%d,", *a)
+			print("%d,", *a);
 		}
 		else
 		{
