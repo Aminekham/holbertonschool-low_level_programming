@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 		}
 		else if ( i == 0)
 		{
-			print("%d,", *a);
+			printf("%d,", *a);
 		}
 		else
 		{
