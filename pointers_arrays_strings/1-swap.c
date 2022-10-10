@@ -2,9 +2,9 @@
 /**
  * swap_int - swapping between two pointers
  *
- * @a - an integer pointer
+ * @a:- an integer pointer
  *
- * @b - an integer pointer
+ * @b:- an integer pointer
  */
 void swap_int(int *a, int *b)
 {
