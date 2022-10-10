@@ -7,19 +7,11 @@
 void puts2(char *str)
 {
 	int l, i;
-	char *j, ch;
 
 	l = strlen(str);
-	j = str;
-	for (i = 1; i <= l+1/2; i++)
+	for (i = 0; i < l - 1; i+=2)
 	{
-		ch = *j;
-		printf("%c", ch);
-		j += 2;
+		_putchar (str [i]);
 	}
-    if (j = l)
-    {
-        printf("%p", *j);
-    }
-	printf("\n");
+	_putchar('\n');
 }
