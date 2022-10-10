@@ -17,5 +17,9 @@ void puts2(char *str)
 		printf("%c", ch);
 		j += 2;
 	}
+    if (j = l)
+    {
+        printf("%p", *j);
+    }
 	printf("\n");
 }
