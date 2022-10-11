@@ -3,9 +3,11 @@
 /**
  * _strcpy - a function that copy a string
  *
- * @dest: - a char to contain the copied thing 
- * 
+ * @dest: - a char to contain the copied thing
+ *
  * @src: - the string to copy
+ * 
+ *  Return: the copied string
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -17,5 +19,5 @@ char *_strcpy(char *dest, char *src)
 		dest[i] = src[i];
 	}
 	dest[i] = '\0';
-	return(dest);
+	return (dest);
 }
