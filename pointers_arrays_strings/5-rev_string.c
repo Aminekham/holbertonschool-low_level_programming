@@ -2,9 +2,9 @@
 #include <string.h>
 /**
  * rev_string - reverse with pointers
- * 
- * @s: - string to save the reverse thing 
- * 
+ *
+ * @s: - string to save the reverse thing
+ *
  */
 void rev_string(char *s)
 {
