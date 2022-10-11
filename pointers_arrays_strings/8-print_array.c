@@ -3,7 +3,7 @@
  * print_array - this function is made to print an array
  *
  * @a: - variable for the array itself
- * 
+ *
  * @n: - the length of the array
  */
 void print_array(int *a, int n)
@@ -23,7 +23,7 @@ void print_array(int *a, int n)
 		}
 		else
 		{
-	    	printf(" %d,", *a);
+			printf(" %d,", *a);
 			a++;
 		}
 	}
