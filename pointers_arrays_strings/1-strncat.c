@@ -6,6 +6,8 @@
  * @dest: - string to save the whole process
  *
  * @src: - the first string
+ * 
+ * @n: - the number of characters to take
  *
  *  Return: the final string
  */
