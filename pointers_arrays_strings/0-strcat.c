@@ -6,7 +6,7 @@
  * @dest: - string to save the whole process
  *
  * @src: - the first string
- * 
+ *
  *  Return: the final string
  */
 char *_strcat(char *dest, char *src)
