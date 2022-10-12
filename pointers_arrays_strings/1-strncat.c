@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strcat - concat those two strings
+ * _strncat - concat those two strings with a factor of n
  *
  * @dest: - string to save the whole process
  *
