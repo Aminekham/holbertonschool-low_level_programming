@@ -1,24 +1,29 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strncat - concat to n
+ * _strcat - concat those two strings
  *
- * @dest: - string to concat in 
- * 
- * @src: - string to concat
+ * @dest: - string to save the whole process
  *
- * @n: - integer to determinate how much we concat
+ * @src: - the first string
  *
  *  Return: the final string
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, mn;
+	int i, j;
 
-	mn = strlen(dest);
-	for (i = 0; i < n; i++)
+	i = 0;
+	j = 0;
+	while (*(dest + i) != '\0')
 	{
-		dest[mn + i] = src[i];
+		i++;
+	}
+	while (*(src + j) != '\0' && j < n)
+	{
+		*(dest + i) = *(src + j);
+		i++;
+		j++;
 	}
 	return (dest);
 }
