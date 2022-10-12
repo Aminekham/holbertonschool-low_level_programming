@@ -7,7 +7,7 @@
  *
  * @src: - the first string
  * 
- * Return: the final string
+ *  Return: the final string
  */
 char *_strcat(char *dest, char *src)
 {
