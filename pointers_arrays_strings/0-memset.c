@@ -8,7 +8,7 @@
  *
  * @n: - unsigned integer to count
  *
- *  Return : return the s pointer
+ * Return : return the s pointer
  */
 char *_memset(char *s, char b, unsigned int n)
 {
