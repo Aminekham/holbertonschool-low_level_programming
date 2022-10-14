@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcmp - function to count the difference between the differences
+ *_strcmp - function to count the difference between the differences
  *
  * @s1: - first string
  *
