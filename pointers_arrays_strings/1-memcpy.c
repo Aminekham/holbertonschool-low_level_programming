@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * _memcpy - function to copy from memory to memory
- * 
+ *
  * @src: - the memory source
- * 
+ *
  * @dest: - the memory destination
- * 
+ *
  * @n: - the number of copying
- * 
+ *
  * Return: return the destination variable
  *
  */
