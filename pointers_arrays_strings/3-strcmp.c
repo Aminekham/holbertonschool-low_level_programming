@@ -6,7 +6,7 @@
  *
  * @s2: - second string
  *
- *  Return : difference between the last two characters
+ * Return: difference between the last two characters
  */
 int _strcmp(char *s1, char *s2)
 {
