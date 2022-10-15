@@ -1,10 +1,10 @@
 #include "main.h"
 #include <string.h>
 /**
- * leet - function to encode to leet 
- * 
+ * leet - function to encode to leet
+ *
  * @str: - string to encode
- * 
+ *
  * Return: return the string encoded
  *
  */
