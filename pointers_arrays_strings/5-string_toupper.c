@@ -5,7 +5,7 @@
  *
  * @str: - the string to upper
  *
- * Return : the string fully upper
+ * Return: the string fully upper
  */
 char *string_toupper(char *str)
 {
