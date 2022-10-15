@@ -2,11 +2,11 @@
 #include <string.h>
 /**
  * _strpbrk - find the occurence
- * 
+ *
  * @s: - the string to find in
- * 
+ *
  * @accept: - the string to find any char within
- * 
+ *
  * Return: s or null depends on what we find
  *
  */
