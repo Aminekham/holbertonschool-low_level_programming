@@ -2,8 +2,8 @@
 /**
  *sqrts - function to help comparing two integers to find the square root
  *
- * @r: - the integer to move further and give us the return needed 
- * 
+ * @r: - the integer to move further and give us the return needed
+ *
  * @m: - the integer to find the square root of
  *
  * Return: the function itself to test again
