@@ -27,7 +27,7 @@ int verf(int c, int t)
 	}
 	else
 	{
-		return verf(c + 1, t);
+		return (verf(c + 1, t));
 	}
 }
 /**
