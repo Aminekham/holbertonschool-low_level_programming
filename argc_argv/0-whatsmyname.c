@@ -3,7 +3,9 @@
  * 
  * 
  */
-void name(char *argv)
+int main(int argc, char *argv[])
 {
-	printf("%c", argv[0]);
+	argc = 0;
+	printf("%s\n", argv[argc]);
+	return(0);
 }
