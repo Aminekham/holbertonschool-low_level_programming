@@ -6,6 +6,8 @@
  *
  * @t: - where to put n
  *
+ *Return: the main return of all the program
+ *
  */
 int verf(int c, int t)
 {
@@ -33,6 +35,7 @@ int verf(int c, int t)
  *
  * @n: - integer to verify with
  *
+ * Return: if its prime or not
  */
 int is_prime_number(int n)
 {
