@@ -4,7 +4,7 @@
  *
  * @str: - the string to copy
  *
- *Return : returns a pointer to the copied string
+ *Return: returns a pointer to the copied string
  */
 char *_strdup(char *str)
 {
@@ -20,14 +20,14 @@ char *_strdup(char *str)
 	{
 		l = strlen(str);
 		newstr = malloc((sizeof(char) * l) + 1);
+		if (newstr == NULL)
+		{
+			return (NULL);
+		}
 		while (i < l)
 		{
 			*(newstr + i) = *(str + i);
 			i++;
-			if (newstr == NULL)
-			{
-				return(NULL);
-			}
 		}
 	}
 	return (newstr);
