@@ -24,6 +24,10 @@ char *_strdup(char *str)
 		{
 			*(newstr + i) = *(str + i);
 			i++;
+			if (newstr == NULL)
+			{
+				return(NULL);
+			}
 		}
 	}
 	return (newstr);
