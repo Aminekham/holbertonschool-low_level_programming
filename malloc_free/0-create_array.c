@@ -6,7 +6,7 @@
  *
  * @c: the character to fill the array with
  *
- *Return : returns a pointer to the character in that array
+ *Return: returns a pointer to the character in that array
  *
  */
 char *create_array(unsigned int size, char c)
