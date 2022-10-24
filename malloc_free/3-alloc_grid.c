@@ -6,6 +6,7 @@
  *
  * @height: - the height of the table
  *
+ * Return: returns the whole grid
  */
 int **alloc_grid(int width, int height)
 {
