@@ -16,7 +16,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		n = l1;
 	}
-	sum = malloc(l + n);
+	sum = malloc(l + n + 2);
 	if (sum == NULL)
 	{
 		return(NULL);
@@ -35,7 +35,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		{
 			sum[i] = s1[i];
 		}
-		for (i = i ;i < l + n ; i++)
+		for (i = i ;i <= l + n ; i++)
 		{
 			sum[i] = s2[j];
 			j++;
