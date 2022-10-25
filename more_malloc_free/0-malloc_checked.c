@@ -3,7 +3,7 @@
  *malloc_checked - function to allocate with the value of b
  *
  * @b: - the number of allocated memory in the heap
- * 
+ *
  * Return: returns the adress of those pointers
  *
  */
