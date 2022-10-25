@@ -23,24 +23,21 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	if (s1 == NULL)
 	{
-		sum = s2;
+		s1 = "";
 	}
 	else if (s2 == NULL)
 	{
-		sum = s1;
+		s2 = "";
 	}
-	else
+	for (i = 0; i < l; i++)
 	{
-		for (i = 0; i < l; i++)
-		{
-			sum[i] = s1[i];
-		}
-		for (i = i;i < (l + n); i++)
-		{
-			sum[i] = s2[j];
-			j++;
-		}
-	}	
+		sum[i] = s1[i];
+	}
+	for (i = i;i < (l + n); i++)
+	{
+		sum[i] = s2[j];
+		j++;
+	}
 	return (sum);
 	free(sum);
 }
