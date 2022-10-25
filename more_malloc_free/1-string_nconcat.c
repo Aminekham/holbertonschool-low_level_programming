@@ -16,19 +16,30 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		n = l1;
 	}
-	sum = malloc(l + n + 1);
+	sum = malloc(l + n);
 	if (sum == NULL)
 	{
 		return(NULL);
 	}
-	for (i = 0; i < l; i++)
+	if (s1 == NULL)
 	{
-		sum[i] = s1[i];
+		sum = s2;
 	}
-	for (i = i ;i < l + n + 1; i++)
+	else if (s2 == NULL)
 	{
-		sum[i] = s2[j];
-		j++;
+		sum = s1;
 	}
+	else
+	{
+		for (i = 0; i < l; i++)
+		{
+			sum[i] = s1[i];
+		}
+		for (i = i ;i < l + n ; i++)
+		{
+			sum[i] = s2[j];
+			j++;
+		}
+	}	
 	return (sum);
 }
