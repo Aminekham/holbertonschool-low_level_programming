@@ -33,7 +33,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		sum[i] = s1[i];
 	}
-	for (i = i;i < (l + n); i++)
+	for (i = i;i <= (l + n); i++)
 	{
 		sum[i] = s2[j];
 		j++;
