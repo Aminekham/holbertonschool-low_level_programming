@@ -1,8 +1,11 @@
 #include "main.h"
 /**
+ *malloc_checked - function to allocate with the value of b
+ *
+ * @b: - the number of allocated memory in the heap
  * 
- * 
- * 
+ * Return: returns the adress of those pointers
+ *
  */
 void *malloc_checked(unsigned int b)
 {
@@ -12,7 +15,7 @@ void *malloc_checked(unsigned int b)
 	{
 		return (NULL);
 	}
-	arr = malloc (b);
+	arr = malloc(b);
 	if (arr == NULL)
 	{
 		exit(98);
