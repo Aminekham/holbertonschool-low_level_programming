@@ -3,9 +3,11 @@
  *string_nconcat - fucntion that concatinates two strings with a certein factor
  *
  * @s1: - the first string
- * 
+ *
  * @s2: - the second one (works with the factor)
  *
+ * @n: - the factor
+ * 
  *Return: - the sum of the two with the n factor
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
