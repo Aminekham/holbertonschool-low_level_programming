@@ -1,8 +1,12 @@
 #include "main.h"
 /**
+ *string_nconcat - fucntion that concatinates two strings with a certein factor
  *
+ * @s1: - the first string
+ * 
+ * @s2: - the second one (works with the factor)
  *
- *
+ *Return: - the sum of the two with the n factor
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -19,7 +23,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	sum = malloc((l + n + 1) * sizeof(char));
 	if (sum == NULL)
 	{
-		return(NULL);
+		return (NULL);
 	}
 	if (s1 == NULL)
 	{
@@ -33,7 +37,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		sum[i] = s1[i];
 	}
-	for (i = i;i < (l + n); i++)
+	for (i = i; i < (l + n); i++)
 	{
 		sum[i] = s2[j];
 		j++;
