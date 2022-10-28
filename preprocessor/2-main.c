@@ -1,7 +1,6 @@
 #include <stdio.h>
 #define file __FILE__
 /**
- *
  * main - the main function
  *
  * Return: - returns 0
