@@ -3,9 +3,9 @@
 /**
  *struct dog - a structure defining the features of a dog
  * @name: -name of the dog
- * 
+ *
  * @age: -the age of our dog
- * 
+ *
  * @owner: -the name of its owner
  */
 struct dog
