@@ -4,7 +4,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
 	{
-		printf("");
+		printf("ok");
 	}
 	else
     {
