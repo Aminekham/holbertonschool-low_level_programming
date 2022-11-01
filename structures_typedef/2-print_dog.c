@@ -3,7 +3,7 @@
 /**
  *print_dog - printing dog infos
  *
- * @d: - pointer to dog 
+ * @d: - pointer to dog
  *
  */
 void print_dog(struct dog *d)
