@@ -31,7 +31,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		}
 		else
 		{
-			printf("%d%s", va_arg(p, int),separator);
+			printf("%d%s", va_arg(p, int), separator);
 		}
 	}
 	va_end(p);
