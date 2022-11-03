@@ -21,7 +21,10 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		{
 			printf("%d\n", va_arg(p, int));
 		}
-		printf("%d%c ", va_arg(p, int), *separator);
+		else
+		{
+			printf("%d%c ", va_arg(p, int), *separator);
+		}
 	}
 	va_end(p);
 }
