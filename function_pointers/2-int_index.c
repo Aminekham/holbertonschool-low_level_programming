@@ -8,11 +8,21 @@
  *@size: - the size of the array
  *
  * @cmp: - pointer of the function to compare with it
+ *
+ * Return: returns the index of the desired number
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 
+	if (array == NULL)
+	{
+		return (-1);
+	}
+	if (cmp == NULL)
+	{
+		return (-1);
+	}
 	if (size <= 0)
 	{
 		return (-1);
