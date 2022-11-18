@@ -3,6 +3,7 @@
  *add_node_end - adding a node at the end
  *@head: a pointer on the first node
  *@str: the string to duplicate
+ *Return: returns the address of the new added node
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
