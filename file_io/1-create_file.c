@@ -16,7 +16,7 @@ int create_file(const char *filename, char *text_content)
 	}
 	if (text_content == NULL && f != -1)
 	{
-		return(1);
+		return (1);
 	}
 	l = strlen(text_content);
 	x = write(f, text_content, l);
