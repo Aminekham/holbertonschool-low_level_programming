@@ -5,7 +5,7 @@
  * 
  * 
 */
-void the_cp(int argc, char **argv)
+int main(int argc, char **argv)
 {
     int f, f1, i = 0;
     char *bf;
@@ -40,4 +40,5 @@ void the_cp(int argc, char **argv)
         read(f, bf, i);
     }
     dprintf(f1, "%s", bf);
+    return(0);
 }
