@@ -22,15 +22,14 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	}
 	new->n = n;
 	save = h;
-	while (i < idx - 1 && (*save)->next)
+	while (i < idx )
 	{
 		save = &(*save)->next;
 		i++;
 	}
-	new->next = (*save)->next;
-	new->prev = *save;
-	(*save)->next = new;
-	save = &(*save)->next;
+	new->next = (*save);
+	new->prev = ((*save)->prev)->prev;
+	((*save)->prev)->next = new; 
 	(*save)->prev = new;
 	return (new);
 }
